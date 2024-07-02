@@ -1,0 +1,67 @@
+.shrink {
+    transform: scale(0.94); /* Adjust the scale factor as needed */
+  }
+
+.bg-left-side{
+    background-image: url('./Images/ParkCentrale2.png');
+    background-size: cover;
+    background-position: center;
+}
+.mobilebg{
+    background-image: url('./Images/PcBldg.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.logoSize{
+    width: 25%;
+}
+.headerLogoSize{
+   width:35%;
+}
+
+.headerLogoSize2{
+    width:30%;
+ }
+
+.mt-30 {
+    margin-top: 6rem /* 80px */;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .background {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    transition: all 0.5s ease;
+    background-image: url('./Images/PcBldg.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .background.left {
+    left: 0;
+  }
+  
+  .background.right {
+    left: 50%;
+  }
+  
+  .form-container {
+    width: 50%;
+    margin-left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.8); /* Optional: Add a slight background to form container */
+  }
